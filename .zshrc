@@ -1,3 +1,4 @@
+export PATH=$PATH:`npm bin -g`
 export LANG="ja_JP.UTF-8"
 export TERM=xterm-256color
 # The following lines were added by compinstall
