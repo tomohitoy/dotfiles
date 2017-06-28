@@ -1,6 +1,6 @@
-export PATH=$PATH:`npm bin -g`
 export LANG="ja_JP.UTF-8"
 export TERM=xterm-256color
+export PATH=$HOME/.npm-global/bin:$PATH
 # The following lines were added by compinstall
 zstyle ':completion:*' completer _expand _complete _ignored _correct _approximate
 zstyle ':completion:*' list-colors ''
