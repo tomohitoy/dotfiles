@@ -42,8 +42,6 @@ colors
 
 # Alias
 alias ls='ls -G'
-# PATH
-PATH=/Users/yano/.pyenv/shims:$PATH:~/.bin
 # no beep
 setopt nolistbeep
 # useful functions
