@@ -39,6 +39,13 @@ precmd () {
 autoload colors
 colors
 
+# PATH for anyenv
+export PATH="$HOME/.anyenv/bin:$PATH"
+eval "$(anyenv init -)"
+
+# PATH for Postgres.app
+export PATH="/Applications/Postgres.app/Contents/Versions/latest/bin:$PATH"
+
 # Alias
 alias ls='ls -G'
 # no beep
