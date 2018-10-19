@@ -41,7 +41,7 @@ colors
 
 # PATH for anyenv
 export PATH="$HOME/.anyenv/bin:$PATH"
-eval "$(anyenv init -)"
+eval "$(anyenv init - zsh)"
 
 # PATH for Postgres.app
 export PATH="/Applications/Postgres.app/Contents/Versions/latest/bin:$PATH"
